@@ -392,7 +392,7 @@ main .bx-banner {
 }
 main .bx-banner .container {
   padding-top: 175px;
-  padding-bottom: 200px;
+  padding-bottom: 280px;
   position: relative;
 }
 @media (max-width: 991px) {
@@ -545,19 +545,23 @@ main .bx-banner .bx-banner-image {
           animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  width: 100%;
   height: auto;
 }
 @media (max-width: 991px) {
   main .bx-banner .bx-banner-image {
     margin-bottom: 0;
-    width: 350px;
-    margin-top: 30px;
+    width: 400px;
   }
 }
 @media (max-width: 767px) {
   main .bx-banner .bx-banner-image {
     width: 358px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1300px) and (min-width: 992px) {
+  main .bx-banner .bx-banner-image {
+    margin-left: -50px;
   }
 }
 main .bx-banner .banner-arrow {
